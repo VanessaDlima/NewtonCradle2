@@ -12,7 +12,7 @@ class Roof {
     display(){
       var pos = this.body.position;
       rectMode(CENTER);
-      fill("lightseagreen");
+      fill("seagreen");
       rect(pos.x, pos.y, this.width, this.height);
     }
   };
