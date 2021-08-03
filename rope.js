@@ -24,7 +24,7 @@ class Rope {
         var Anchor2Y = pointB.y + this.offsetY;
 
         strokeWeight(2);
-        stroke("maroon");
+        stroke("darkseagreen");
 
         line(Anchor1X, Anchor1Y, Anchor2X, Anchor2Y);
     }
